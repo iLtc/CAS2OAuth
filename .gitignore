@@ -22,3 +22,6 @@
 
 # RubyMine
 .idea
+
+# Env file
+.env
