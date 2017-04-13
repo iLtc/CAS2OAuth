@@ -5,6 +5,6 @@ class LoginController < ApplicationController
   def logout
   end
 
-  def valid
+  def validate
   end
 end

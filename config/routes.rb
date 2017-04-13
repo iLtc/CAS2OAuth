@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'login/login'
+  get 'login', to: 'login#login'
 
-  get 'login/logout'
+  get 'logout', to: 'login#logout'
 
-  get 'login/valid'
+  get 'validate', to: 'login#validate'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
